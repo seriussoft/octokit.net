@@ -12,7 +12,7 @@ namespace Octokit
     public class CheckRunsClient : ApiClient, ICheckRunsClient
     {
         /// <summary>
-        /// Initializes a new GitHub Check Suites API client.
+        /// Initializes a new GitHub Check Runs API client.
         /// </summary>
         /// <param name="apiConnection">An API connection</param>
         public CheckRunsClient(IApiConnection apiConnection) : base(apiConnection)
@@ -23,7 +23,7 @@ namespace Octokit
         /// Creates a new Check Run
         /// </summary>
         /// <remarks>
-        /// See the <a href="https://developer.github.com/v3/checks/runs/#create-a-check-run">Check Suites API documentation</a> for more information.
+        /// See the <a href="https://developer.github.com/v3/checks/runs/#create-a-check-run">Check Runs API documentation</a> for more information.
         /// </remarks>
         /// <param name="owner">The owner of the repository</param>
         /// <param name="name">The name of the repository</param>
@@ -41,7 +41,7 @@ namespace Octokit
         /// Creates a new Check Run
         /// </summary>
         /// <remarks>
-        /// See the <a href="https://developer.github.com/v3/checks/runs/#create-a-check-run">Check Suites API documentation</a> for more information.
+        /// See the <a href="https://developer.github.com/v3/checks/runs/#create-a-check-run">Check Runs API documentation</a> for more information.
         /// </remarks>
         /// <param name="repositoryId">The Id of the repository</param>
         /// <param name="newCheckRun">Details of the Check Run to create</param>
