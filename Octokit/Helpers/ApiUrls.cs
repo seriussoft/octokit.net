@@ -3873,6 +3873,7 @@ namespace Octokit
             return "repos/{0}/{1}/check-runs".FormatUri(owner, repo);
         }
 
+        /// <summary>
         /// Returns the <see cref="Uri"/> that returns the specified check suite.
         /// </summary>
         /// <param name="repositoryId">The Id of the repository</param>
